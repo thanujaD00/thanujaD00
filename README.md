@@ -35,21 +35,13 @@ I’m passionate about building scalable, user-friendly applications and solving
 
 ## 📈 My GitHub Stats
 
-<div style="display: flex; justify-content: space-between;">
-  <div>
-    <img src="https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=dark&hide_title=true&hide_border=true&count_private=true" alt="Thanuja's GitHub Stats" />
-  </div>
-  <div>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
-  </div>
-</div>
+<table border="0">
+  <tr border="0">
+    <td border="0"><img src="https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=dark&hide_title=true&hide_border=true&count_private=true" alt="Thanuja's GitHub Stats" /></td>
+    <td border="0"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=dark&hide_border=true" alt="Top Languages" /></td>
+  </tr>
+</table>
 
----
-
-## 🎯 Contribution Streak
-
-**Check out my contribution streak!**  
-![GitHub Contributions](https://github-readme-streak-stats.herokuapp.com/?user=thanujaD00&theme=dark&hide_border=true)
 
 ---
 
