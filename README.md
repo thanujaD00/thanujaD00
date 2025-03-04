@@ -32,9 +32,8 @@ I’m passionate about building scalable, user-friendly applications and solving
 ---
 
 ## 🌍 Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/thanuja-wickramasinghe/) *(replace with your actual link)*  
-- [Email](mailto:thanuja@example.com) *(replace with your email)*  
-- [Portfolio](https://thanujawickramasinghe.github.io) *(optional—add if you have one)*  
+- [LinkedIn](https://www.linkedin.com/in/thanuja-dhananjaya/)  
+- [Email](mailto:thanujadha20@gmail.com)
 
 ---
 
