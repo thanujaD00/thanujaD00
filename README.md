@@ -35,9 +35,9 @@ I’m passionate about building scalable, user-friendly applications and solving
 
 ## 📈 My GitHub Stats
 
-![Thanuja's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ThanujaWickramasinghe&show_icons=true&theme=light&hide_border=true&count_private=true)
+![Thanuja's GitHub Stats](https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=light&hide_border=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ThanujaWickramasinghe&layout=compact&theme=light&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=light&hide_border=true)
 
 ---
 
