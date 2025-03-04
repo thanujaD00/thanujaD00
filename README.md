@@ -35,10 +35,10 @@ I’m passionate about building scalable, user-friendly applications and solving
 
 ## 📈 My GitHub Stats
 
-<table border="0">
-  <tr border="0">
-    <td border="0"><img src="https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=dark&hide_title=true&hide_border=true&count_private=true" alt="Thanuja's GitHub Stats" /></td>
-    <td border="0"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=dark&hide_border=true" alt="Top Languages" /></td>
+<table style="border:none;">
+  <tr>
+    <td style="border:none;"><img src="https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=dark&hide_title=true&hide_border=true&count_private=true" alt="Thanuja's GitHub Stats" /></td>
+    <td style="border:none;"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=dark&hide_border=true" alt="Top Languages" /></td>
   </tr>
 </table>
 
