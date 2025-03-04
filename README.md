@@ -35,9 +35,26 @@ I’m passionate about building scalable, user-friendly applications and solving
 
 ## 📈 My GitHub Stats
 
-![Thanuja's GitHub Stats](https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=light&hide_border=true&count_private=true)
+### GitHub Stats Overview:
+![Thanuja's GitHub Stats](https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=dark&hide_title=true&hide_border=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=light&hide_border=true)
+### Most Used Languages:
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=dark&hide_border=true)
+
+---
+
+## 🎯 Contribution Streak
+
+**Check out my contribution streak!**  
+![GitHub Contributions](https://github-readme-streak-stats.herokuapp.com/?user=thanujaD00&theme=dark&hide_border=true)
+
+---
+
+## 🚀 Achievements and Badges
+
+- 🔥 **Top 5% Most Active Contributor** in the year 2023
+- 🏆 **Hackathon Winner**: [SLIIT Code Jam 2024](https://example.com)
+- 🏅 **Certified in Cloud Technologies** (AWS)
 
 ---
 
