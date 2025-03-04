@@ -50,18 +50,10 @@ I’m passionate about building scalable, user-friendly applications and solving
 
 ---
 
-## 🚀 Achievements and Badges
-
-- 🔥 **Top 5% Most Active Contributor** in the year 2023
-- 🏆 **Hackathon Winner**: [SLIIT Code Jam 2024](https://example.com)
-- 🏅 **Certified in Cloud Technologies** (AWS)
-
----
-
 ## 🌍 Let's Connect!
 
-- [LinkedIn](https://www.linkedin.com/in/thanuja-dhananjaya/)
-- [Email](mailto:thanujadha20@gmail.com)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thanuja-dhananjaya/)
+- [![Email](https://img.shields.io/badge/Email-%23D14836.svg?&style=flat-square&logo=gmail&logoColor=white)](mailto:thanujadha20@gmail.com)
 
 ---
 
