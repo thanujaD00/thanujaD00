@@ -35,11 +35,14 @@ I’m passionate about building scalable, user-friendly applications and solving
 
 ## 📈 My GitHub Stats
 
-### GitHub Stats Overview:
-![Thanuja's GitHub Stats](https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=dark&hide_title=true&hide_border=true&count_private=true)
-
-### Most Used Languages:
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=dark&hide_border=true)
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <img src="https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=dark&hide_title=true&hide_border=true&count_private=true" alt="Thanuja's GitHub Stats" />
+  </div>
+  <div>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+  </div>
+</div>
 
 ---
 
