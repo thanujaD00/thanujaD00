@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Thanuja Wickramasinghe - Portfolio Website
+
+A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. Features a dark futuristic theme with interactive elements and a contact form connected to a NestJS backend.
+
+## Features
+
+- 🎨 **Modern Design**: Dark futuristic theme with orange and purple gradients
+- 📱 **Responsive**: Works perfectly on all devices
+- ✨ **Interactive**: Custom cursor effects and smooth animations
+- 📧 **Contact Form**: Connected to NestJS backend for email functionality
+- 🚀 **Performance**: Optimized with Next.js and TypeScript
+
+## Tech Stack
+
+- **Frontend**: Next.js 15, React 19, TypeScript
+- **Styling**: Tailwind CSS
+- **Backend**: NestJS with Nodemailer
+- **Email**: Gmail SMTP with Handlebars templates
 
 ## Getting Started
 
-First, run the development server:
+### Frontend (Portfolio Website)
 
 ```bash
+cd my-portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Backend (Email Service)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+cd portfolio-backend
+npm install
+npm run start:dev
+```
 
-## Learn More
+The backend runs on [http://localhost:3001](http://localhost:3001).
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+thanujaD00/
+├── my-portfolio/          # Frontend (Next.js)
+│   ├── app/              # App router pages
+│   ├── public/           # Static assets
+│   └── components/       # React components
+└── portfolio-backend/     # Backend (NestJS)
+    ├── src/              # Source code
+    ├── templates/        # Email templates
+    └── dist/             # Compiled code
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact Form
 
-## Deploy on Vercel
+The contact form sends emails to:
+- **Admin Email**: thanujadha20@gmail.com (you receive the message)
+- **Confirmation Email**: Sender receives a thank you message
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Update personal information in the components
+- Modify colors in `globals.css`
+- Change email templates in `portfolio-backend/src/templates/`
+- Update environment variables in `.env`
+
+## Deployment
+
+- **Frontend**: Deploy to Vercel, Netlify, or any static hosting
+- **Backend**: Deploy to Railway, Heroku, or any Node.js hosting
+
+## Author
+
+**Thanuja Wickramasinghe** - Software Engineer & Full-Stack Developer
+- Email: thanujadha20@gmail.com
+- Location: Kandy, Sri Lanka

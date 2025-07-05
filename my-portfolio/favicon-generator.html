@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favicon Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        canvas {
+            border: 1px solid #ddd;
+            margin: 10px 0;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        input[type="file"] {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Favicon Generator for Thanuja's Portfolio</h1>
+        <p>Upload your photo to generate a favicon for your portfolio website.</p>
+        
+        <input type="file" id="imageInput" accept="image/*">
+        <br>
+        <button onclick="generateFavicon()">Generate Favicon</button>
+        <button onclick="downloadFavicon()">Download Favicon</button>
+        
+        <div>
+            <h3>Preview:</h3>
+            <canvas id="faviconCanvas" width="32" height="32"></canvas>
+            <canvas id="previewCanvas" width="128" height="128"></canvas>
+        </div>
+        
+        <div>
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Upload your photo using the file input above</li>
+                <li>Click "Generate Favicon" to create a circular favicon</li>
+                <li>Click "Download Favicon" to save the favicon.ico file</li>
+                <li>Replace the existing favicon.ico in your public folder</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        let faviconData = null;
+
+        function generateFavicon() {
+            const fileInput = document.getElementById('imageInput');
+            const file = fileInput.files[0];
+            
+            if (!file) {
+                alert('Please select an image first!');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const img = new Image();
+                img.onload = function() {
+                    // Generate 32x32 favicon
+                    const faviconCanvas = document.getElementById('faviconCanvas');
+                    const faviconCtx = faviconCanvas.getContext('2d');
+                    
+                    // Create circular mask
+                    faviconCtx.beginPath();
+                    faviconCtx.arc(16, 16, 16, 0, 2 * Math.PI);
+                    faviconCtx.clip();
+                    
+                    // Draw image
+                    faviconCtx.drawImage(img, 0, 0, 32, 32);
+                    
+                    // Generate 128x128 preview
+                    const previewCanvas = document.getElementById('previewCanvas');
+                    const previewCtx = previewCanvas.getContext('2d');
+                    
+                    previewCtx.beginPath();
+                    previewCtx.arc(64, 64, 64, 0, 2 * Math.PI);
+                    previewCtx.clip();
+                    
+                    previewCtx.drawImage(img, 0, 0, 128, 128);
+                    
+                    faviconData = faviconCanvas.toDataURL('image/png');
+                };
+                img.src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function downloadFavicon() {
+            if (!faviconData) {
+                alert('Please generate a favicon first!');
+                return;
+            }
+
+            const link = document.createElement('a');
+            link.download = 'favicon.ico';
+            link.href = faviconData;
+            link.click();
+        }
+    </script>
+</body>
+</html> 
