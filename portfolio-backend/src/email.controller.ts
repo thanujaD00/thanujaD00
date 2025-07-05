@@ -1,7 +1,7 @@
 import { Controller, Post, Body, HttpException, HttpStatus } from '@nestjs/common';
 import { EmailService, ContactFormData } from './email.service';
 
-@Controller('api/contact')
+@Controller('contact')
 export class EmailController {
   constructor(private readonly emailService: EmailService) {}
 

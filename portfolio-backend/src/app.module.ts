@@ -7,21 +7,26 @@ import { AppService } from './app.service';
 import { EmailController } from './email.controller';
 import { EmailService } from './email.service';
 
+const templateDir = join(__dirname, '..', 'src', 'templates');
+console.log('Template directory path:', templateDir);
+
 @Module({
   imports: [
     MailerModule.forRoot({
       transport: {
-        service: 'gmail',
+        host: 'smtp.gmail.com',
+        port: 465,
+        secure: true, // true for 465, false for 587
         auth: {
-          user: process.env.EMAIL_USER || 'thanujadha20@gmail.com',
-          pass: process.env.EMAIL_PASSWORD || 'your-app-password-here',
+          user: process.env.GMAIL_ADDRESS || 'thanujadha20@gmail.com',
+          pass: process.env.GMAIL_APP_PASSWORD || 'aimy pgfb bfuh rkhr',
         },
       },
       defaults: {
         from: '"Thanuja Portfolio" <thanujadha20@gmail.com>',
       },
       template: {
-        dir: join(__dirname, 'templates'),
+        dir: templateDir,
         adapter: new HandlebarsAdapter(),
         options: {
           strict: true,
