@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import CustomCursor from '../components/CustomCursor';
 
 export default function ProjectsPage() {
   const projects = [
@@ -61,65 +62,97 @@ export default function ProjectsPage() {
   const categories = ['All', 'Research Project', 'Professional Work', 'Academic Project', 'Mobile Application', 'Cloud Computing'];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-black text-white relative overflow-hidden">
+      {/* Background Glows */}
+      <div className="fixed inset-0 pointer-events-none">
+        {/* Top Left Glow */}
+        <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-orange-500/20 to-transparent rounded-full blur-3xl"></div>
+        
+        {/* Top Right Glow */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-purple-500/20 to-transparent rounded-full blur-3xl"></div>
+        
+        {/* Bottom Left Glow */}
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-purple-500/15 to-transparent rounded-full blur-3xl"></div>
+        
+        {/* Bottom Right Glow */}
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-orange-500/15 to-transparent rounded-full blur-3xl"></div>
+        
+        {/* Center Edge Glows */}
+        <div className="absolute top-1/2 left-0 w-64 h-64 bg-gradient-to-r from-orange-400/10 to-transparent blur-2xl transform -translate-y-1/2"></div>
+        <div className="absolute top-1/2 right-0 w-64 h-64 bg-gradient-to-l from-purple-400/10 to-transparent blur-2xl transform -translate-y-1/2"></div>
+        
+        {/* Top Center Glow */}
+        <div className="absolute top-0 left-1/2 w-96 h-96 bg-gradient-to-b from-orange-400/10 to-transparent blur-3xl transform -translate-x-1/2"></div>
+        
+        {/* Bottom Center Glow */}
+        <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-gradient-to-t from-purple-400/10 to-transparent blur-3xl transform -translate-x-1/2"></div>
+      </div>
+
+      <CustomCursor />
       <Navbar />
       
-      <main className="max-w-6xl mx-auto px-4 py-12">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">My Projects</h1>
-          <p className="text-xl text-gray-600">
+      <main className="relative z-10 max-w-6xl mx-auto px-4 py-24">
+        <div className="text-center mb-16">
+          <h1 className="text-5xl font-bold text-white mb-6">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-purple-400">
+              My
+            </span>
+            <span className="text-white"> Projects</span>
+          </h1>
+          <div className="w-24 h-1 bg-gradient-to-r from-orange-400 to-purple-400 mx-auto mb-6"></div>
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             A showcase of my work across full-stack development, machine learning, and cloud computing
           </p>
         </div>
 
         {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-2 mb-12">
+        <div className="flex flex-wrap justify-center gap-4 mb-16">
           {categories.map((category) => (
             <button
               key={category}
-              className="px-4 py-2 text-sm font-medium text-gray-700 bg-white rounded-full border border-gray-300 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="px-6 py-3 text-sm font-medium text-gray-300 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 hover:text-white transition-all duration-300"
             >
               {category}
             </button>
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {projects.map((project) => (
-            <div key={project.id} className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
-              <div className="p-6">
-                <div className="flex justify-between items-start mb-3">
-                  <span className="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-medium rounded-full">
+            <div key={project.id} className="group bg-white/5 rounded-lg border border-white/10 hover:border-orange-400/30 transition-all duration-300 overflow-hidden">
+              <div className="p-8">
+                <div className="flex justify-between items-start mb-4">
+                  <span className="px-4 py-2 bg-gradient-to-r from-orange-500/20 to-purple-500/20 text-orange-300 text-sm font-medium rounded-full border border-orange-400/30">
                     {project.category}
                   </span>
-                  <span className="text-gray-500 text-sm">{project.year}</span>
+                  <span className="text-gray-400 text-sm">{project.year}</span>
                 </div>
                 
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-orange-300 transition-colors">
                   {project.title}
                 </h3>
                 
-                <p className="text-gray-600 mb-4 leading-relaxed">
+                <p className="text-gray-300 mb-6 leading-relaxed">
                   {project.description}
                 </p>
                 
-                <div className="mb-4">
-                  <h4 className="text-sm font-medium text-gray-700 mb-2">Key Highlights:</h4>
-                  <ul className="text-sm text-gray-600 space-y-1">
+                <div className="mb-6">
+                  <h4 className="text-sm font-medium text-orange-300 mb-3">Key Highlights:</h4>
+                  <ul className="text-sm text-gray-300 space-y-2">
                     {project.highlights.map((highlight, index) => (
                       <li key={index} className="flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
+                        <span className="text-orange-400 mr-3 mt-1">▸</span>
                         {highlight}
                       </li>
                     ))}
                   </ul>
                 </div>
                 
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-6">
                   {project.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded"
+                      className="px-3 py-1 bg-white/10 text-gray-300 text-xs rounded-full border border-white/20"
                     >
                       {tech}
                     </span>
@@ -127,11 +160,11 @@ export default function ProjectsPage() {
                 </div>
                 
                 <div className="flex space-x-4">
-                  <button className="text-blue-600 hover:text-blue-800 text-sm font-medium">
-                    View Details
+                  <button className="text-orange-300 hover:text-orange-200 text-sm font-medium transition-colors">
+                    View Details →
                   </button>
-                  <button className="text-green-600 hover:text-green-800 text-sm font-medium">
-                    GitHub
+                  <button className="text-purple-300 hover:text-purple-200 text-sm font-medium transition-colors">
+                    GitHub →
                   </button>
                 </div>
               </div>
@@ -140,16 +173,21 @@ export default function ProjectsPage() {
         </div>
 
         {/* Skills Summary */}
-        <section className="mt-16 bg-white p-8 rounded-lg shadow-sm">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Technologies I Work With</h2>
+        <section className="mt-24 bg-white/5 p-12 rounded-lg border border-white/10">
+          <h2 className="text-4xl font-bold text-white mb-8 text-center">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-purple-400">
+              Technologies
+            </span>
+            <span className="text-white"> I Work With</span>
+          </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {[
               'React.js', 'React Native', 'Node.js', 'Python', 'TypeScript', 'MongoDB',
               'Docker', 'Kubernetes', 'GCP', 'Machine Learning', 'Flask', 'Express.js',
               'Redux', 'SASS', 'Tailwind CSS', 'JWT', 'DevOps', 'CI/CD'
             ].map((tech) => (
-              <div key={tech} className="bg-gray-50 p-3 rounded-lg text-center">
-                <span className="text-gray-700 text-sm font-medium">{tech}</span>
+              <div key={tech} className="bg-white/5 p-4 rounded-lg text-center border border-white/10 hover:bg-white/10 transition-all duration-300">
+                <span className="text-gray-300 text-sm font-medium">{tech}</span>
               </div>
             ))}
           </div>
