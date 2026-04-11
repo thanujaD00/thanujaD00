@@ -53,6 +53,24 @@ I am a results-driven **Software Engineer** specializing in the **MERN stack** a
 
 ---
 
+### 📊 GitHub Activity & Stats
+
+<p align="left">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=thanujaD00&show_icons=true&theme=radical&count_private=true&hide_rank=false" height="195" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=radical&hide=jupyter%20notebook&count_private=true" height="195" />
+</p>
+
+### 🐍 Contribution Journey
+<p align="center">
+  <img src="https://raw.githubusercontent.com/thanujaD00/thanujaD00/output/github-contribution-grid-snake.svg" alt="snake" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=thanujaD00&theme=radical" width="100%" />
+</p>
+
+---
+
 ### 📫 Connect with Me
 <p align="left">
 <a href="mailto:thanujadha20@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
