@@ -39,7 +39,7 @@ I am a results-driven **Software Engineer** specializing in the **MERN stack** a
 
 ### 📊 GitHub Stats & Languages
 
-<p align="left">
+<p align="">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=thanujaD00&show_icons=true&theme=radical&count_private=true&hide_rank=false" height="195" />
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=radical&hide=jupyter%20notebook&count_private=true" height="195" />
 </p>
