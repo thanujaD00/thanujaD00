@@ -38,8 +38,8 @@ I am a results-driven **Software Engineer** specializing in the **MERN stack** a
 ---
 
 ### 📊 GitHub Stats
-![Thanuja's GitHub stats](https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=radical)
+![Thanuja's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=thanujaD00&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=radical)
 
 ---
 
