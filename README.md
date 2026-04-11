@@ -46,7 +46,7 @@ I am a results-driven **Software Engineer** specializing in the **MERN stack** a
 
 ### 🐍 Contribution Journey
 <p align="center">
-  <img src="https://raw.githubusercontent.com/thanujaD00/thanujaD00/output/github-contribution-grid-snake.svg" alt="snake" />
+  <img src="https://raw.githubusercontent.com/thanujaD00/thanujaD00/output/github-contribution-grid-snake-dark.svg" alt="snake" />
 </p>
 
 <p align="center">
