@@ -7,10 +7,9 @@ I am a results-driven **Software Engineer** specializing in the **MERN stack** a
 ---
 
 ### 🚀 What I'm Up To
-- 🔭 **Currently Working On:** Advanced healthcare management modules and interactive digital charting systems.
-- 🌱 **Learning & Researching:** Deepening knowledge in **Machine Learning (XGBoost, LSTM, ARIMA)** and **Cloud Native architectures**.
-- 💻 **Professional Expertise:** Full-stack development with a focus on high-performance **React** frontends and secure **Node.js** backends.
-- ⚡ **Fun Fact:** I enjoy exploring photography, specifically capturing the landscapes and sunrises around Kandy.
+- 🌱 **Learning & Researching:** Pursuing an **M.Sc. in Artificial Intelligence** at the University of Moratuwa.
+- 💻 **Professional Role:** Associate Software Engineer at **Avenir IT**, specializing in healthcare and dental management systems.
+- ⚡ **Fun Fact:** I’m an avid photographer who loves capturing sunrises and Kandy’s scenic landscapes.
 
 ---
 
