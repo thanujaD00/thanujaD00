@@ -43,6 +43,16 @@ I am a results-driven **Software Engineer** specializing in the **MERN stack** a
 
 ---
 
+### 📊 GitHub Stats
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=radical&count_private=true&hide_rank=false" alt="Thanuja's GitHub stats" />
+</p>
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=radical&hide=jupyter%20notebook&count_private=true" alt="Top Langs" />
+</p>
+
 ### 📫 Connect with Me
 - 📧 **Email:** [thanujadha20@gmail.com](mailto:thanujadha20@gmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/thanuja-wickramasinghe](https://www.linkedin.com/in/thanuja-wickramasinghe)
