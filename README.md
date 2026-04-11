@@ -37,21 +37,14 @@ I am a results-driven **Software Engineer** specializing in the **MERN stack** a
 
 ---
 
-### 📊 GitHub Stats
-![Thanuja's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=thanujaD00&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=radical)
+### 📊 GitHub Stats & Languages
+
+<p align="left">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=thanujaD00&show_icons=true&theme=radical&count_private=true&hide_rank=false" height="195" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=radical&hide=jupyter%20notebook&count_private=true" height="195" />
+</p>
 
 ---
-
-### 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=thanujaD00&show_icons=true&theme=radical&count_private=true&hide_rank=false" alt="Thanuja's GitHub stats" />
-</p>
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanujaD00&layout=compact&theme=radical&hide=jupyter%20notebook&count_private=true" alt="Top Langs" />
-</p>
 
 ### 📫 Connect with Me
 - 📧 **Email:** [thanujadha20@gmail.com](mailto:thanujadha20@gmail.com)
