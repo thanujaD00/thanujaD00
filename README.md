@@ -58,7 +58,7 @@ I am a results-driven **Software Engineer** specializing in the **MERN stack** a
 ### 📫 Connect with Me
 <p align="left">
 <a href="mailto:thanujadha20@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/thanuja-wickramasinghe"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/thanuja-dhananjaya/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
 
 ---
