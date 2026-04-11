@@ -3,9 +3,7 @@ name: generate animation
 on:
   schedule:
     - cron: "0 */24 * * *" 
-  
   workflow_dispatch:
-  
   push:
     branches:
     - main
@@ -18,14 +16,13 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      # github contribution grid එකෙන් සර්පයෙකුගේ ඇනිමේෂන් එකක් සාදයි
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23F712A4&color_dots=%23161b22,%23392d5a,%235e3b8e,%238c52ff,%23b388ff
           
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
